@@ -56,16 +56,16 @@ export default function ChooseUsSection(){
           </div>
         </div>
       </section>
-                    {playVideo && 
-                      <div class="overlay-wrapper">
-                        <div className='video-wrapper'>
-                        <button className='cross-btn' onClick={() => setPlayVideo(false)}>
-                          <CrossIcon/>
-                        </button>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u31qwQUeGuM?si=ase-LLGbTBxctsW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                      
-                      </div>}
-                      </>
+      {playVideo && 
+        <div class="overlay-wrapper">
+          <div className='video-wrapper'>
+          <button className='cross-btn' onClick={() => setPlayVideo(false)}>
+            <CrossIcon/>
+          </button>
+          <iframe width="560" height="315" src={playVideo ? "https://www.youtube.com/embed/u31qwQUeGuM?si=ase-LLGbTBxctsW1?&autoplay=1" : "https://www.youtube.com/embed/u31qwQUeGuM?si=ase-LLGbTBxctsW1"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        
+        </div>}
+        </>
     )
 }
