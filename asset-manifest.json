@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/est-zone-website/static/css/main.5dd3644e.css",
+    "main.css": "/est-zone-website/static/css/main.3457f7b1.css",
     "main.js": "/est-zone-website/static/js/main.121641b2.js",
     "static/js/787.b9c1842c.chunk.js": "/est-zone-website/static/js/787.b9c1842c.chunk.js",
     "static/media/hero-bg.png": "/est-zone-website/static/media/hero-bg.56b3edf24913a1fb4810.png",
@@ -17,12 +17,12 @@
     "static/media/feature-image-2.png": "/est-zone-website/static/media/feature-image-2.b6f748dda21bd7a8459a.png",
     "static/media/footer-img-2.png": "/est-zone-website/static/media/footer-img-2.109924e09739d1034ffc.png",
     "index.html": "/est-zone-website/index.html",
-    "main.5dd3644e.css.map": "/est-zone-website/static/css/main.5dd3644e.css.map",
+    "main.3457f7b1.css.map": "/est-zone-website/static/css/main.3457f7b1.css.map",
     "main.121641b2.js.map": "/est-zone-website/static/js/main.121641b2.js.map",
     "787.b9c1842c.chunk.js.map": "/est-zone-website/static/js/787.b9c1842c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dd3644e.css",
+    "static/css/main.3457f7b1.css",
     "static/js/main.121641b2.js"
   ]
 }
