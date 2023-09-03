@@ -164,7 +164,7 @@ line-height: 1.33;
 font-family: 'Poppins', sans-serif;
 }
 
-p {
+p, span {
 font-size: 26px;
 font-weight: 400;
 line-height: 1.38;
@@ -724,6 +724,16 @@ section.show-animation  .animate {
   margin-bottom: 60px;
 }
 
+.word-wrapper span {
+  color: #606878;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.word-wrapper span:hover{
+  color: #E16E4F;
+}
+
 .feature-card-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -1010,6 +1020,7 @@ hr {
   .site-btn .sign-btn,
   a,
   p,
+  span,
   p.items,
   .select-option-wrapper .select-btn,
   .read-more-btn,
