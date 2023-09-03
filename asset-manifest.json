@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/est-zone-website/static/css/main.51e9e792.css",
+    "main.js": "/est-zone-website/static/js/main.429fc806.js",
+    "static/js/787.b9c1842c.chunk.js": "/est-zone-website/static/js/787.b9c1842c.chunk.js",
+    "static/media/hero-bg.png": "/est-zone-website/static/media/hero-bg.56b3edf24913a1fb4810.png",
+    "static/media/choose-us-image.png": "/est-zone-website/static/media/choose-us-image.8c37189d2c9d3bb9ee97.png",
+    "static/media/home-image.png": "/est-zone-website/static/media/home-image.9d6135d8a21b3bfb33a8.png",
+    "static/media/mobile-hero-bg.png": "/est-zone-website/static/media/mobile-hero-bg.c9d32c97dd3f22807f64.png",
+    "static/media/card-image-1.png": "/est-zone-website/static/media/card-image-1.fbbb74940bf3a8a082f6.png",
+    "static/media/feature-image-3.png": "/est-zone-website/static/media/feature-image-3.0aa4b297069977c75314.png",
+    "static/media/agent-image-2.png": "/est-zone-website/static/media/agent-image-2.e323185dbe9485894d93.png",
+    "static/media/feature-image-1.png": "/est-zone-website/static/media/feature-image-1.42ce54b05e8fc09793c1.png",
+    "static/media/agent-image-1.png": "/est-zone-website/static/media/agent-image-1.7abf833392934eaea156.png",
+    "static/media/card-image-3.png": "/est-zone-website/static/media/card-image-3.1b73802971579198bc57.png",
+    "static/media/card-image-2.png": "/est-zone-website/static/media/card-image-2.e244032f44d102106549.png",
+    "static/media/feature-image-2.png": "/est-zone-website/static/media/feature-image-2.b6f748dda21bd7a8459a.png",
+    "static/media/footer-img-2.png": "/est-zone-website/static/media/footer-img-2.109924e09739d1034ffc.png",
+    "index.html": "/est-zone-website/index.html",
+    "main.51e9e792.css.map": "/est-zone-website/static/css/main.51e9e792.css.map",
+    "main.429fc806.js.map": "/est-zone-website/static/js/main.429fc806.js.map",
+    "787.b9c1842c.chunk.js.map": "/est-zone-website/static/js/787.b9c1842c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e9e792.css",
+    "static/js/main.429fc806.js"
+  ]
+}
