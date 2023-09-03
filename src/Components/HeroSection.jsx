@@ -29,8 +29,7 @@ const [showMobileMenu, setShowMobileMenu] = useState(false);
             </div>
             <button className='hamberger-menu' onClick={() => setShowMobileMenu(true)}>
               <HamburgerMenu/>
-            </button>
-            {showMobileMenu && 
+            </button> 
             <div className={`mobile-navbar ${showMobileMenu ? 'show' : ''}`}>
             <button className='cross-btn' onClick={() => setShowMobileMenu(false)}>
               <CrossIcon/>
@@ -50,7 +49,7 @@ const [showMobileMenu, setShowMobileMenu] = useState(false);
               <button className='sign-btn'>Sign up</button>
               <button className='sign-btn'>Sign in</button>
             </div>
-          </div>}
+          </div>
 
           </div>
           <div className='hero-main'>
