@@ -127,6 +127,7 @@ button.hamberger-menu {
   font-size: 20px;
 }
 
+
 .mobile-navbar .site-btn .sign-btn {
   padding: 12px 20px;
 }
@@ -1340,7 +1341,7 @@ hr {
 
   .mobile-navbar .site-btn,
   .mobile-navbar .navbar {
-    display: block;
+    display: flex;
   }
 
   .feature-section .search-btn {
