@@ -1311,7 +1311,7 @@ hr {
 @media only screen and (max-width: 575px ){
 
   .hero-section {
-    padding: 30px 0 330px;
+    padding: 30px 0 400px ;
     background-image: url('Components/images/mobile-hero-bg.png');
     background-position: top;
   }
