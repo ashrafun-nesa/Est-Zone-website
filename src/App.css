@@ -496,13 +496,10 @@ section.show-animation  .animate {
   height: 80%;
   position: absolute;
   top: 0;
-  right: -100%;
+  right: 0;
   background: #282A2E;
   z-index: -1;
   transition: 1s;
-}
-.agent-section.show-animation::before {
-  right: 0;
 }
 
 .agent-section h2,
@@ -1277,7 +1274,14 @@ hr {
     width: calc(100% - 100px);
     margin: 0 auto;
   }
+
+  .residence-section,
+  .agent-section, 
+  .choose-us-section {
+    padding-bottom: 60px;
+ }
 }
+
 
 @media only screen and (max-width: 575px ){
 

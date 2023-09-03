@@ -13,14 +13,14 @@ export default function ChooseUsSection(){
         <section className='choose-us-section'>
         <div className='site-container'>
           <div className="choose-us-wrapper">
-            <div className='image-section animate-left'>
+            <div className='image-section'>
               <img src={ChooseUsImage} alt="home-image" />
               <button className='play-btn' onClick={() => setPlayVideo(true)}>
                 <PlayIcon/>
               </button>
               
             </div>
-            <div className='about-info animate-right'>
+            <div className='about-info '>
               <h2>Why Choose Us?</h2>
               <p className='description'>Condimentum taciti phasellus nisi urna risus etiam hendrerit bibendum euismod sollicitudin nunc velit.</p>
               <div className='property-info-wrapper'>
