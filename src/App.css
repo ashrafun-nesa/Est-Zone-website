@@ -1263,7 +1263,7 @@ hr {
   }
 
   .feature-card-wrapper .signle-card {
-    width: calc(100% - 20px);
+    width: calc(100% - 100px);
     margin: 0 auto;
   }
 }

@@ -17,7 +17,7 @@ useEffect(() => {
     const scrollY = window.scrollY;
 
     sections.forEach((sec) => {
-      const offset = sec.offsetTop - 300;
+      const offset = sec.offsetTop - 400;
       const height = sec.offsetHeight;
 
       if (scrollY >= offset && scrollY < offset + height) {
