@@ -119,7 +119,7 @@ button.hamberger-menu {
 
 
 .mobile-navbar nav ul {
-  gap: 40px;
+  gap: 30px;
 }
 
 .mobile-navbar .site-btn .sign-btn, 
@@ -1365,8 +1365,16 @@ hr {
   .property-img-wrapper {
     flex-flow: column wrap;
   }
-}
 
+  .overlay-wrapper .video-wrapper {
+    width: 90%;
+  }
+
+  .overlay-wrapper .video-wrapper  iframe {
+    width: 100%;
+    aspect-ratio: 4/3;
+  }
+}
 
 @keyframes spin {
   from {
