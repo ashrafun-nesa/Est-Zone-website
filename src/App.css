@@ -852,6 +852,7 @@ section.show-animation  .animate {
 
 .social-media img {
   width: calc(100% / 5 - 30px);
+  max-width: 36px;
 }
 
 .single-wrapper.links {
@@ -1384,15 +1385,18 @@ hr {
   .footer-wrapper {
     flex-flow: column wrap;
     align-items: center;
-    text-align: center;
   }
 
-  .single-wrapper .text {
-    justify-content: center;
+  .single-wrapper.links {
+    max-width: 100%;
   }
 
-  .property-img-wrapper {
-    flex-flow: column wrap;
+  .single-wrapper {
+    width: 100%;
+  }
+
+  .social-media {
+    justify-content: flex-start;
   }
 
   .overlay-wrapper .video-wrapper {
