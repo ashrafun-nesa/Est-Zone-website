@@ -48,7 +48,7 @@ export default function FeatureSection(){
                 </div>
               </div>
             </div>
-            <button className='search-btn animate'>View All Property</button>
+            <button className='search-btn'>View All Property</button>
             <div className="feature-logo-wrapper animate">
               <img src={Logo1} alt="logo" />
               <img src={Logo2} alt="logo" />

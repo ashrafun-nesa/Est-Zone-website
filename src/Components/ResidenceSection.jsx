@@ -127,7 +127,7 @@ export default function (){
                         {cardData.slice(currentCardIndex, currentCardIndex + cardsPerPage).map((card, index) => (
                         <div key={index} className="card">
                             <img src={card.imageUrl} alt={card.title} />
-                            <p className='dolar-amount'><span className='dolar'>$</span>{card.amount}</p>
+                            <p className='dolar-amount'><p className='dolar-amount dolar'>$ </p>{card.amount}</p>
                             <h3>{card.title}</h3>
                             <p className='description'>{card.description}</p>
                         </div>
