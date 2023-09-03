@@ -6,7 +6,7 @@ export default function AgentSection(){
         <section className='agent-section'>
         <div className='site-container'>
           <div className="agent-wrapper">
-            <div className='about-info'>
+            <div className='about-info animate-left'>
               <h2>Get Everything You Need To Pick The Right Agent</h2>
               <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
             </div>

@@ -8,7 +8,7 @@ export default function AboutusSection(){
             <div className='image-section animate-left'>
               <img src={homeImage} alt="home-image" />
             </div>
-            <div className='about-info'>
+            <div className='about-info animate-right'>
               <h2>About Us</h2>
               <h5>Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam</h5>
               <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
