@@ -91,6 +91,7 @@ const [showMobileMenu, setShowMobileMenu] = useState(false);
             </div>
           </div>
         </div>
+        <div className='white-bg'></div>
       </section>
     )
 }

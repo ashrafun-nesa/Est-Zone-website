@@ -1,58 +1,70 @@
 import { useState, useEffect } from 'react';
 import BestChoice from './Icons/BestCoice';
 import LeftArrowIcon from './Icons/LeftArrowIcon';
+import ImageOne from './images/card-image-1.png';
+import ImageTwo from './images/card-image-2.png';
+import ImageThree from './images/card-image-3.png';
 
 export default function (){
     const [currentCardIndex, setCurrentCardIndex] = useState(0);
     const [cardsPerPage, setCardsPerPage] = useState(3);
   
     const cardData = [
-      {
-        title: 'Card 1',
-        description: 'This is the first card',
-        imageUrl: 'image1.jpg',
-      },
-      {
-        title: 'Card 2',
-        description: 'This is the second card',
-        imageUrl: 'image2.jpg',
-      },
-      {
-        title: 'Card 3',
-        description: 'This is the third card',
-        imageUrl: 'image3.jpg',
-      },
-      {
-        title: 'Card 4',
-        description: 'This is the fourth card',
-        imageUrl: 'image4.jpg',
-      },
-      {
-        title: 'Card 5',
-        description: 'This is the fifth card',
-        imageUrl: 'image5.jpg',
-      },
-      {
-        title: 'Card 6',
-        description: 'This is the sixth card',
-        imageUrl: 'image6.jpg',
-      },
-      {
-        title: 'Card 7',
-        description: 'This is the seventh card',
-        imageUrl: 'image7.jpg',
-      },
-      {
-        title: 'Card 8',
-        description: 'This is the eighth card',
-        imageUrl: 'image8.jpg',
-      },
-      {
-        title: 'Card 9',
-        description: 'This is the ninth card',
-        imageUrl: 'image9.jpg',
-      },
-    ];
+        {
+          title: 'Aliva Priva Jardin',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageOne,
+          amount: '47,043',
+        },
+        {
+          title: 'Asatti Garden City',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageTwo,
+          amount: '66,043',
+        },
+        {
+          title: 'Citraland Puri Serang',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageThree,
+          amount: '35,543',
+        },
+        {
+          title: 'Aliva Priva Jardin',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageOne,
+          amount: '47,043',
+        },
+        {
+          title: 'Asatti Garden City',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageTwo,
+          amount: '66,043',
+        },
+        {
+          title: 'Citraland Puri Serang',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageThree,
+          amount: '35,543',
+        },
+        {
+          title: 'Aliva Priva Jardin',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageOne,
+          amount: "47,043",
+        },
+        {
+          title: 'Asatti Garden City',
+          description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+          imageUrl: ImageTwo,
+          amount: '66,043',
+        },
+        {
+            title: 'Citraland Puri Serang',
+            description: 'Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+            imageUrl: ImageThree,
+            amount: '35,543',
+        },
+      ];      
   
     useEffect(() => {
       function handleResize() {
@@ -95,11 +107,11 @@ export default function (){
     return(
         <section className='residence-section'>
             <div className='site-container'>
-                <span>
+                <span className='animate-left'>
                     <BestChoice/>
                 </span>
                 <div className='heading-wrapper'>
-                    <h2>Popular Residences</h2>
+                    <h2 className='animate-left'>Popular Residences</h2>
                     <div className='btn-wrapper'>
                     <button className="slider-button prev" onClick={handlePrevCards}>
                        <LeftArrowIcon/>
@@ -115,8 +127,9 @@ export default function (){
                         {cardData.slice(currentCardIndex, currentCardIndex + cardsPerPage).map((card, index) => (
                         <div key={index} className="card">
                             <img src={card.imageUrl} alt={card.title} />
+                            <p className='dolar-amount'><span className='dolar'>$</span>{card.amount}</p>
                             <h3>{card.title}</h3>
-                            <p>{card.description}</p>
+                            <p className='description'>{card.description}</p>
                         </div>
                         ))}
                     </div>

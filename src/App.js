@@ -3,6 +3,10 @@ import { useEffect, useState } from 'react';
 import AboutusSection from './Components/AboutusSection';
 import HeroSection from './Components/HeroSection';
 import ResidenceSection from './Components/ResidenceSection';
+import AgentSection from './Components/AgentSection';
+import ChooseUsSection from './Components/ChooseUsSection';
+import FeatureSection from './Components/FeatureSection';
+import FooterSection from './Components/FooterSection';
 
 function App() {
 
@@ -13,7 +17,7 @@ useEffect(() => {
     const scrollY = window.scrollY;
 
     sections.forEach((sec) => {
-      const offset = sec.offsetTop - 200;
+      const offset = sec.offsetTop - 300;
       const height = sec.offsetHeight;
 
       if (scrollY >= offset && scrollY < offset + height) {
@@ -38,6 +42,10 @@ useEffect(() => {
       <HeroSection/>
       <AboutusSection/>
       <ResidenceSection/>
+      <AgentSection/>
+      <ChooseUsSection/>
+      <FeatureSection/>
+      <FooterSection/>
     </div>
   );
 }
