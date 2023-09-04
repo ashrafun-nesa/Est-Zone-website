@@ -279,6 +279,12 @@ section .animate-left {
 section .animate-right {
   transform: translateX(100%);
 }
+section .animate-left,
+section .animate-right {
+  opacity: 0;
+  visibility: hidden;
+}
+
 section .animate {
   transform: scale(0.7);
 }
@@ -290,8 +296,10 @@ section {
 section.show-animation .animate-left,
 section.show-animation  .animate-right {
   transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
 }
-section.show-animation  .animate {
+section.show-animation .animate {
   transform: scale(1);
 }
 
@@ -1309,9 +1317,8 @@ hr {
 
 
 @media only screen and (max-width: 575px ){
-
   .hero-section {
-    padding: 30px 0 400px ;
+    padding: 30px 0 400px;
     background-image: url('Components/images/mobile-hero-bg.png');
     background-position: top;
   }
